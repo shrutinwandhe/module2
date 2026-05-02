@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>St. Xavier's College of Engineering | Nagpur</title>
+  <style>
+    /* Global Styles */
+    body {
+      background-color: #011627; /* Dark Navy from CSS */
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar Style */
+    .navbar {
+      background-color: rgba(1, 22, 39, 0.95);
+      border-bottom: 2px solid #efa125 !important;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    h1 { color: #e6a02f; margin: 0; font-size: 24px; }
+    a { color: #ffffff; text-decoration: none; padding: 5px 10px; transition: 0.3s; }
+    a:hover { color: #f7a521; }
+
+    /* Hero Section (Home) */
+    .hero-table {
+      background: linear-gradient(rgba(1, 22, 39, 0.6), rgba(1, 22, 39, 0.6)), 
+                  url('https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1986&auto=format&fit=crop'); 
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      border: none !important;
+    }
+
+    /* Orange Buttons & UI Elements */
+    .btn-orange, input[type="button"] {
+      background-color: #f39f19 !important;
+      color: #000 !important;
+      padding: 12px 25px;
+      border-radius: 4px;
+      display: inline-block;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .btn-outline {
+      background-color: transparent !important;
+      color: #ffffff !important;
+      border: 1px solid #ffffff !important;
+      padding: 11px 24px;
+      border-radius: 4px;
+      display: inline-block;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    /* Stats & Content Tables */
+    table[border="1"], table[border="2"] {
+      border-color: #1a3a4a !important;
+      background-color: rgba(255, 255, 255, 0.03);
+      border-radius: 8px;
+    }
+
+    th {
+      background-color: #f3a830;
+      color: #011627;
+      padding: 12px;
+    }
+
+    .highlight { color: #f7a522; }
+    
+    /* Form Inputs */
+    input[type="text"], input[type="password"] {
+      background: #0b253a;
+      border: 1px solid #f6a522;
+      color: white;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #000b14;
+      border: none !important;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<table width="100%" class="navbar" cellpadding="10" border="0">
+  <tr>
+    <td align="left">
+      <h1>St. Xavier's College of Engineering</h1>
+      <small>Nagpur, Maharashtra &middot; Est. 1984</small>
+    </td>
+    <td align="right">
+      <a href="#home">Home</a> &nbsp;|&nbsp; 
+      <a href="#departments">Departments</a> &nbsp;|&nbsp; 
+      <a href="#contact">Contact</a> &nbsp;|&nbsp; 
+      <a href="#login">Student Login</a>
+    </td>
+  </tr>
+</table>
+
+<!-- HERO SECTION -->
+<a name="home"></a>
+<table width="100%" class="hero-table" border="0">
+  <tr>
+    <td align="center">
+      <b class="highlight">NAAC A Grade Accredited Institution</b><br><br>
+      <font size="7"><b>Engineering Excellence Since 1984</b></font><br><br>
+      <font size="4">Shaping visionary engineers through world-class research, innovation,<br>and industry collaboration in the heart of Nagpur.</font><br><br><br>
+      <a href="#departments" class="btn-orange">Explore Departments</a> &nbsp;&nbsp;
+      <a href="#contact" class="btn-outline"><b>Get In Touch</b></a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- STATS -->
+<table width="90%" border="1" cellpadding="15" align="center">
+  <tr align="center">
+    <td width="25%"><font size="6" class="highlight"><b>40+</b></font><br>Years Legacy</td>
+    <td width="25%"><font size="6" class="highlight"><b>150+</b></font><br>Faculty</td>
+    <td width="25%"><font size="6" class="highlight"><b>98%</b></font><br>Placement Rate</td>
+    <td width="25%"><font size="6" class="highlight"><b>6</b></font><br>Departments</td>
+  </tr>
+</table>
+
+<br>
+
+<!-- ABOUT -->
+<table width="90%" border="2" cellpadding="15" align="center">
+  <tr>
+    <td>
+      <font size="2" class="highlight"><b>ABOUT THE INSTITUTION</b></font><br>
+      <font size="5"><b>About St. Xavier's College of Engineering</b></font><br><br>
+      St. Xavier's College of Engineering, Nagpur, established in 1984, is a premier institution committed to academic excellence, innovation, and all-round development of engineering students. Affiliated to Nagpur University and accredited by NAAC with an 'A' Grade, the college offers undergraduate and postgraduate programs across six engineering departments.
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- DEPARTMENTS -->
+<a name="departments"></a>
+<table width="90%" border="2" cellpadding="15" align="center">
+  <tr>
+    <td align="center">
+      <font size="2" class="highlight"><b>ACADEMIC DIVISIONS</b></font><br>
+      <font size="5"><b>Explore Our Departments</b></font><br>
+      Six specialized engineering departments offering undergraduate and postgraduate programs.<br><br>
+      <table width="100%" border="1" cellpadding="15">
+        <tr align="center">
+          <td width="33%"><b>Computer Science</b></td>
+          <td width="33%"><b>Information Technology</b></td>
+          <td width="33%"><b>Mechanical</b></td>
+        </tr>
+        <tr align="center">
+          <td><b>Civil Engineering</b></td>
+          <td><b>Electrical</b></td>
+          <td><b>Electronics &amp; TC</b></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- CAMPUS FACILITIES -->
+<table width="90%" border="2" cellpadding="15" align="center">
+  <tr>
+    <td align="center">
+      <font size="2" class="highlight"><b>CAMPUS FACILITIES</b></font><br>
+      <font size="5"><b>World-Class Infrastructure</b></font><br><br>
+      <table width="100%" border="1" cellpadding="15">
+        <tr align="center">
+          <td width="25%"><b>Advanced Research Labs</b><br><small>Fully equipped labs for AI, robotics, embedded systems &amp; more.</small></td>
+          <td width="25%"><b>Central Library</b><br><small>1,00,000+ volumes, e-journals, and digital repositories.</small></td>
+          <td width="25%"><b>Hostel Facilities</b><br><small>Separate hostels for boys and girls with 24x7 security.</small></td>
+          <td width="25%"><b>Smart Classrooms</b><br><small>ICT-enabled rooms with interactive boards and projectors.</small></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- CS DEPARTMENT HEADER & STATS -->
+<table width="90%" border="2" cellpadding="15" align="center">
+  <tr align="center">
+    <td>
+      <font size="2" class="highlight"><b>DEPARTMENT PAGE</b></font><br>
+      <font size="6"><b>Computer Science &amp; Engineering</b></font>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="90%" border="1" cellpadding="15" align="center">
+  <tr align="center">
+    <td width="25%"><font size="5" class="highlight"><b>480</b></font><br>Students Enrolled</td>
+    <td width="25%"><font size="5" class="highlight"><b>28</b></font><br>Faculty Members</td>
+    <td width="25%"><font size="5" class="highlight"><b>12</b></font><br>Research Labs</td>
+    <td width="25%"><font size="5" class="highlight"><b>100%</b></font><br>Placement (5yr)</td>
+  </tr>
+</table>
+
+<br>
+
+<!-- FACULTY DIRECTORY -->
+<table width="90%" border="2" cellpadding="15" align="center">
+  <tr>
+    <td align="center">
+      <font size="2" class="highlight"><b>FACULTY DIRECTORY</b></font><br>
+      <font size="5"><b>Meet Our Experts</b></font><br><br>
+      <table width="100%" border="1" cellpadding="12">
+        <tr><th>Name</th><th>Designation</th><th>Specialization</th></tr>
+        <tr align="center"><td>Dr. Shilpa Raut</td><td>Head of Department</td><td>AI &middot; NLP</td></tr>
+        <tr align="center"><td>Prof. V. Wankhede</td><td>Associate Professor</td><td>Data Science &middot; Big Data</td></tr>
+        <tr align="center"><td>Dr. A. Patil</td><td>Associate Professor</td><td>Cyber Security &middot; Networks</td></tr>
+        <tr align="center"><td>Prof. R. Singh</td><td>Assistant Professor</td><td>OS &middot; Cloud</td></tr>
+        <tr align="center"><td>Dr. N. Mishra</td><td>Professor</td><td>ML &middot; Computer Vision</td></tr>
+        <tr align="center"><td>Prof. S. Kulkarni</td><td>Assistant Professor</td><td>Software Engineering</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- FULL TIMETABLE -->
+<table width="90%" border="2" cellpadding="15" align="center">
+  <tr>
+    <td align="center">
+      <font size="2" class="highlight"><b>CLASS SCHEDULE</b></font><br>
+      <font size="5"><b>Semester Timetable &ndash; Third Year</b></font><br><br>
+      <table border="1" cellpadding="12" width="100%">
+        <tr><th>Day</th><th>9&ndash;10</th><th>10&ndash;11</th><th>11&ndash;12</th><th>12&ndash;1</th><th>2&ndash;3</th><th>3&ndash;4</th></tr>
+        <tr align="center"><td><b>Monday</b></td><td>Data Structures</td><td>AI</td><td>Networks</td><td>Soft. Engg.</td><td>Lab: DS</td><td>Lab: DS</td></tr>
+        <tr align="center"><td><b>Tuesday</b></td><td>AI</td><td>Data Structures</td><td>Soft. Engg.</td><td>SMP</td><td>Lab: CN</td><td>Lab: CN</td></tr>
+        <tr align="center"><td><b>Wednesday</b></td><td>Networks</td><td>Soft. Engg.</td><td>SMP</td><td>Data Structures</td><td>&mdash;</td><td>&mdash;</td></tr>
+        <tr align="center"><td><b>Thursday</b></td><td>OS</td><td>Networks</td><td>Data Structures</td><td>AI</td><td>Lab: OS</td><td>Lab: OS</td></tr>
+        <tr align="center"><td><b>Friday</b></td><td>Data Structures</td><td>AI</td><td>Networks</td><td>OS</td><td>Project</td><td>Project</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- RESEARCH AREAS -->
+<table width="90%" border="2" cellpadding="15" align="center">
+  <tr>
+    <td align="center">
+      <font size="2" class="highlight"><b>RESEARCH FOCUS</b></font><br>
+      <font size="5"><b>Current Research Areas</b></font><br><br>
+      <table width="100%" border="1" cellpadding="15">
+        <tr align="center">
+          <td width="25%"><b>Artificial Intelligence</b><br><small>Deep learning, NLP, computer vision and autonomous systems.</small></td>
+          <td width="25%"><b>Data Science</b><br><small>Big data pipelines, predictive models, and visual analytics.</small></td>
+          <td width="25%"><b>Cyber Security</b><br><small>Penetration testing, cryptography, and network forensics.</small></td>
+          <td width="25%"><b>Internet of Things</b><br><small>Smart sensors, embedded systems, and IoT architectures.</small></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- STUDENT LOGIN -->
+<a name="login"></a>
+<table width="40%" border="2" cellpadding="20" align="center">
+  <tr>
+    <td align="center">
+      <font size="5" class="highlight"><b>Student Login</b></font><br><br>
+      <table border="0" cellpadding="8">
+        <tr><td align="right">Username:</td><td><input type="text" size="25"></td></tr>
+        <tr><td align="right">Password:</td><td><input type="password" size="25"></td></tr>
+        <tr><td colspan="2" align="center"><br><input type="button" value="Login to Portal" onclick="alert('Login functionality requires backend integration.')"></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- CONTACT -->
+<a name="contact"></a>
+<table width="90%" border="2" cellpadding="15" align="center">
+  <tr>
+    <td align="center">
+      <font size="2" class="highlight"><b>CONTACT US</b></font><br>
+      <font size="5"><b>Get In Touch</b></font><br><br>
+      <table border="1" cellpadding="12" width="60%">
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr align="center"><td>Address</td><td>St. Xavier's College of Engineering, Nagpur, Maharashtra</td></tr>
+        <tr align="center"><td>Phone</td><td>+91-712-000-0000</td></tr>
+        <tr align="center"><td>Email</td><td>info@sxce.ac.in</td></tr>
+        <tr align="center"><td>Website</td><td>www.sxce.ac.in</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- FOOTER -->
+<table width="100%" class="footer">
+  <tr>
+    <td align="center">
+      &copy; 2026 <b>CS Department, St. Xavier's College of Engineering, Nagpur</b>. All rights reserved. &nbsp;|&nbsp;
+      <a href="#home">Back to Home</a>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
